@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../dist/style.css">
+    <title>Ouvrages</title>
+</head>
+<body>
+    <div>
+        <button class="open-popup">Ajouter</button>
+    </div>
+    <div class="popup-back">
+        <form action="" class="popup-form">
+            <div class="form-header">
+                <h2> SEED RECEPTION</h2>
+                <br>
+                <h3>Ajouter une formation</h3>
+            </div>
+            <label for="nom">Nom</label>
+            <div >
+                <input type="text" class="textfield" id="nom" placeholder="..." required>
+            </div>
+            <label for="nomF">Enseignant</label>
+            <div >
+                <select class="textfield" id="nomF" required>
+                    <option value="--">opt1</option>    
+                    <option value="--">opt1</option>    
+                    <option value="--">opt1</option>    
+                    <option value="--">opt1</option>    
+                </select>
+            </div>
+            <label for="prix">Prix</label>
+            <div >
+                <input type="number" id="prix" class="textfield" step="1000" placeholder="...">
+            </div>
+            <label for="duree">Duree (en semaines)</label>
+            <div>
+                <input type="number" class="textfield" id="duree" placeholder="..." required>
+            </div>
+    
+
+            <div class="form-footer">
+                <input type="button" class="close-popup" value="Annuler">
+                <input type="submit" value="Ajouter">
+            </div>
+            
+        </form>
+    </div>
+
+    
+
+    <script src="../../popup.js"></script>
+</body>
+</html>

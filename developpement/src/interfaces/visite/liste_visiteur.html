@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../dist/style.css">
+    <title>Ouvrages</title>
+</head>
+<body>
+    <div class="popup-back">
+        <form action="" class="popup-form">
+            <div class="form-header">
+                <h2> SEED RECEPTION</h2>
+                <br>
+                <h3>Ajouter un visiteur</h3>
+            </div>
+            <label for="nom">Nom</label>
+            <div >
+                <input type="text" class="textfield" id="nom" placeholder="..." required>
+            </div>
+            <label for="prenom">Prenom</label>
+            <div >
+                <input type="text" class="textfield" placeholder="...">
+            </div>
+            <label for="cni">Numero CNI</label>
+            <div>
+                <input type="text" class="textfield" id="cni" placeholder="..." required>
+            </div>
+            <label for="Tel">Telphone</label>
+            <div>
+                <input type="number" id="tel"class="textfield"  placeholder="..." required>
+            </div>
+            <label for="email">Email</label>
+            <div >
+                <input type="Email" class="textfield" placeholder="..." required>
+            </div>
+
+            <div class="form-footer">
+                <input type="button" class="close-popup" value="Annuler">
+                <input type="submit" value="Ajouter">
+            </div>
+            
+        </form>
+    </div>
+
+    <div>
+        <button class="open-popup">Ajouter</button>
+    </div>
+
+    <script src="../../popup.js"></script>
+</body>
+</html>
